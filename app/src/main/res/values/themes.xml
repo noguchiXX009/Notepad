@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- ToolBarのオプションメニューのOverflowアイコンの色 -->
+        <item name="android:textColorPrimary">#696969</item>
+    </style>
+</resources>

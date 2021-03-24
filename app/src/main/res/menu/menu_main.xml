@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/updater"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:title="updater"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="add_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/credit"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="ポリシー"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/usage"
+                android:title="使い方" />
+            <item
+                android:id="@+id/initiatation"
+                android:title="全削除" />
+        </menu>
+    </item>
+</menu>

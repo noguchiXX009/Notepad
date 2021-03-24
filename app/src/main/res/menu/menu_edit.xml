@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/editRule"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="Item"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item
+                android:id="@+id/editusage"
+                android:title="使い方">
+            </item>
+        </menu>
+    </item>
+</menu>
